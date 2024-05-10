@@ -2,6 +2,13 @@ const nav = document.querySelector(".nav"),
   searchIcon = document.querySelector("#searchIcon");
 navOpenBtn = document.querySelector(".navOpenBtn");
 navCloseBtn = document.querySelector(".navCloseBtn");
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 0) {
+    nav.classList.add("scrolled");
+  } else {
+    nav.classList.remove("scrolled");
+  }
+});
 searchIcon.addEventListener("click", () => {
   nav.classList.toggle("openSearch");
   nav.classList.remove("openNav");
