@@ -49,6 +49,7 @@ a {
 .nav .nav-links {
   column-gap: 20px;
   list-style: none;
+  margin-top: 36px;
 }
 
 .nav .nav-links a {
@@ -197,7 +198,7 @@ a {
   }
 
   .nav .search-box {
-    top: 60px;
+    top: 95px;
     max-width: calc(100% - 20px);
     right: 50%;
     transform: translateX(50%);
