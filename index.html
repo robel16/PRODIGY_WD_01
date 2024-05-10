@@ -1,27 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Responsive Navbar</title>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <script src="script.js" defer></script>
+    <title>Navigation Menu</title>
   </head>
   <body>
-    <nav>
-      <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">DesignX</label>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Feedback</a></li>
+    <div class="nav">
+      <i class="uil uil-bars navOpenBtn"></i>
+      <a href="" class="logo"> Prodigy</a>
+      <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
       </ul>
-    </nav>
-    <section></section>
+      <i class="uil uil-search search-icon" id="searchIcon"></i>
+      <div class="search-box">
+        <i class="uil uil-search search-icon"></i>
+        <input type="text" placeholder="Search here" />
+      </div>
+    </div>
+    <div>
+      <img src="./bg1.jpg" class="img" alt="img" />
+    </div>
+    <div class="hero">
+      <h1>Welcome to our website!</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        consequat pellentesque sagittis. Integer id odio augue. Proin a dolor
+        facilisis, vulputate mauris et, consectetur mi. Mauris a tempus ex, vel
+        dapibus erat. In eget blandit orci. Integer aliquet, elit vel eleifend
+        sollicitudin, nulla nulla tincidunt augue, mollis accumsan nisl orci sit
+        amet diam. Nulla dignissim elit a magna porttitor, at accumsan ex
+        bibendum. Nunc pretium finibus tellus id pellentesque. Suspendisse
+        lacinia mauris et nisi pretium, in efficitur massa mattis. Aliquam
+        imperdiet, lorem a elementum congue, ex mi volutpat mauris, sit amet
+        posuere nisl ligula at massa. Vivamus malesuada lectus tempus tellus
+        lobortis pellentesque. Praesent lacinia, mi quis porttitor laoreet,
+        libero turpis consequat turpis, in egestas neque erat ut dolor. Donec
+        turpis elit, luctus a vehicula at, sodales interdum enim.
+      </p>
+    </div>
   </body>
 </html>
